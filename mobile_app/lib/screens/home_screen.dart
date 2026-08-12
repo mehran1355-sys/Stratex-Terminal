@@ -36,7 +36,9 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('📊 Supply & Demand'),
+  title: const Text('🤖 Stratex Terminal'),
+  ...
+),
         actions: [
           Container(
             margin: const EdgeInsets.only(right: 12),
