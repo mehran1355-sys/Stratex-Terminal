@@ -8,7 +8,9 @@ class SupplyDemandApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Supply & Demand Bot',
+  title: 'Stratex Terminal',
+  ...
+);
       debugShowCheckedModeBanner: false,
       theme: AppTheme.darkTheme,
       home: const HomeScreen(),
