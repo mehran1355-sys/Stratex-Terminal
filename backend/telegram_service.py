@@ -105,3 +105,4 @@ class TelegramService:
             return response.json().get("ok", False)
         except:
             return False
+            message += f"\n\n🤖 Stratex Algo Bot"
